@@ -6,6 +6,8 @@ import FirtsC from "./components/FirtsComponents";
 import TemplateE from "./components/TemplateExpression";
 // 5 - Hierarquia de componentes
 import MyComponents from "./components/MyComponents";
+// 6 - Eventos 
+import Events from "./components/Events";
 
 function App() {
   // 3 - comentários
@@ -17,6 +19,7 @@ function App() {
       <FirtsC />
       <TemplateE />
       <MyComponents />
+      <Events/>
     </div>
   );
 }
