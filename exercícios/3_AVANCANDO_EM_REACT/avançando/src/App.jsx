@@ -3,6 +3,8 @@ import "./App.css";
 import night from "./assets/night.jpg";
 // 4 - useState
 import Data from "./components/Data";
+// 5 - renderização de lista
+import ListRender from "./components/ListRender";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <img src={night} alt="" />
       {/* 4 - useState */}
       <Data />
+      {/* 5 - renderização de lista */}
+      <ListRender />
     </div>
   );
 }
